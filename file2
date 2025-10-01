@@ -1,0 +1,12 @@
+<form method="post">
+    Maths : <input name="maths" value="<?php echo $_POST['maths'] ?? "";?>"><br>
+    Science : <input name="science" value="<?php echo $_POST['science'] ?? "";?>"><br>
+    English : <input name="english" value="<?php echo $_POST['english'] ?? "";?>"><br>
+    Tamil : <input name="tamil" value="<?php echo $_POST['tamil'] ?? "";?>"><br>
+    <button>Check Result</button>
+</form>
+
+<?php
+// include "../f1/check_results_v1.php";
+include "check_results_v2.php";
+?>
